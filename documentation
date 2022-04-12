@@ -1,0 +1,58 @@
+#see following links for problem with database connection
+https://stackoverflow.com/questions/39281594/error-1698-28000-access-denied-for-user-rootlocalhost
+https://stackoverflow.com/questions/50557234/authentication-plugin-caching-sha2-password-is-not-supported
+
+
+
+
+
+
+#see following links for problem with setting up the code in your system 
+//link to open image using python
+https://www.geeksforgeeks.org/python-pil-image-open-method/
+
+//link to rename a file using os library of python
+https://pynative.com/python-rename-file/
+
+
+
+
+//What can be done to make this project better
+(NOTE-1: Using slight moderations in the code 
+	like,
+	1. Exception Handling
+	2. Using Python GUI
+
+	This project can be used in production
+
+NOTE-2: The code can be Transformed to be used in other fields like ,
+		1. Hospital
+		(Project Name : Hospital Management System)
+		(We need to change 
+			a) Database and table name
+			b) Various Variables name
+		)
+		2. Various Shops , etc.
+)
+
+
+//Explanation
+1. First first_time.py is needed to be executed as it creates database project1 and table student . 
+	a)This program also takes input for the destination folder to store the images of students. 
+	b)It copies the destination to the main program (i.e Project1_main.py) 
+2.Then, helper_proj1.py needs to be executed.
+	a) It copies the proj1.py code the  Project1_main.py
+	(bcz, we need to get the destination path and the main code in the same file and this is the file which will be executed again and again)
+3. At last you will run the main program i.e Project1_main.py
+
+
+Execution Steps:
+1. Run first_time.py once
+2. Run helper_proj1.py once
+3. Project1_main.py is the main code you can run this again and again
+	// for giving input to the database and storing images
+	//or , seeing stored data or stored image
+
+
+
+
